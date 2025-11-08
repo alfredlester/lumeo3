@@ -8,7 +8,7 @@ export default function Footer({ onNavigate }: FooterProps) {
   const quickLinks = [
     { id: 'home', label: 'Home' },
     { id: 'portfolio', label: 'Portfolio' },
-    { id: 'FAQs', label: 'FAQs' },
+    { id: 'fAQs', label: 'FAQs' },
     { id: 'contact', label: 'Contact' },
   ];
 
