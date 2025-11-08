@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Github } from 'lucide-react';
+import { Twitter, Instagram } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (section: string) => void;
@@ -10,19 +10,23 @@ export default function Footer({ onNavigate }: FooterProps) {
     { id: 'portfolio', label: 'Portfolio' },
     { id: 'about', label: 'About' },
     { id: 'contact', label: 'Contact' },
+  ];
+
+  const infoLinks = [
+    { id: 'about', label: 'About' },
     { id: 'privacy', label: 'Privacy' },
+    { id: 'security', label: 'Security' },
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Github, href: '#', label: 'GitHub' },
+    { icon: Twitter, href: 'https://x.com', label: 'Twitter' },
+    { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
   ];
 
   return (
     <footer className="bg-[#0d1117] border-t border-white/8 py-12">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <button
               onClick={() => onNavigate('home')}
@@ -58,6 +62,24 @@ export default function Footer({ onNavigate }: FooterProps) {
 
           <div>
             <h3 className="text-xl font-bold text-[#f1f5f9] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
+              Info
+            </h3>
+            <ul className="space-y-2">
+              {infoLinks.map((link) => (
+                <li key={link.id}>
+                  <button
+                    onClick={() => onNavigate(link.id)}
+                    className="text-[#94a3b8] hover:text-[#2563eb] text-sm transition-colors"
+                  >
+                    {link.label}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-bold text-[#f1f5f9] mb-3" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>
               Connect
             </h3>
             <div className="flex gap-4">
@@ -65,6 +87,8 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-[#1e293b] flex items-center justify-center text-[#94a3b8] hover:text-[#2563eb] hover:bg-[#1e3a8a] transition-all"
                   aria-label={social.label}
                 >

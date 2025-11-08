@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Privacy from './pages/Privacy';
+import FAQs from './pages/FAQs';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -34,6 +35,10 @@ function App() {
         return <About />;
       case 'privacy':
         return <Privacy />;
+      case 'security':
+        return <Privacy />;
+      case 'faqs':
+        return <FAQs />;
       default:
         return <Home onNavigate={handleNavigate} />;
     }
