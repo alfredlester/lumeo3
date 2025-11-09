@@ -29,7 +29,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
         scrolled ? 'bg-[#0d1117]/90 backdrop-blur-lg shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between pl-4">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between pl-8">
         <button
           onClick={() => onNavigate('home')}
           className="flex items-center gap-3 hover:opacity-90 transition-opacity"
