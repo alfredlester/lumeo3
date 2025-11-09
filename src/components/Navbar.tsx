@@ -36,7 +36,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
         >
           <img src="/logo.png" alt="LumeoDigital" className="h-10 w-10" />
           <span
-            className="text-2xl font-bold bg-gradient-to-r from-[#2563eb] to-[#112f59] bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Peradex
