@@ -32,7 +32,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <button
           onClick={() => onNavigate('home')}
-          className="flex items-center gap-5 hover:opacity-80 transition-opacity"
+          className="flex items-center gap-4 hover:opacity-80 transition-opacity"
         >
           <img src="/logo.png" alt="LumeoDigital" className="h-10 w-10" />
           <span
