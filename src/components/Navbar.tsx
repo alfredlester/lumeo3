@@ -36,7 +36,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
         >
           <img src="/logo.png" alt="LumeoDigital" className="h-12 w-12" />
           <span
-            className="text-2xl font-bold bg-gradient-to-r from-[#7dd3fc] to-[#93c5fd] bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-to-r from-[#2563eb] to-[#1e3a8a] bg-clip-text text-transparent"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Neptrax
