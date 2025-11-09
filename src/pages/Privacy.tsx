@@ -85,10 +85,6 @@ export default function Privacy() {
                 <Info className="text-[#f1f5f9]" size={20} />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#f1f5f9] mb-2">Important Notice</h3>
-                <p className="text-[#94a3b8] text-sm leading-relaxed">
-                  This is a placeholder policy provided for demonstration purposes. If you use this template for a production website, you must replace this content with your own comprehensive legal privacy and security policies that comply with applicable laws and regulations in your jurisdiction, including GDPR, CCPA, and other relevant data protection laws.
-                </p>
               </div>
             </div>
           </div>
