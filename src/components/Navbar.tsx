@@ -34,7 +34,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           onClick={() => onNavigate('home')}
           className="flex items-center gap-3 hover:opacity-90 transition-opacity ml-12"
         >
-          <img src="/logo.png" alt="LumeoDigital" className="h-16 w-16" />
+          <img src="/logo.png" alt="LumeoDigital" className="h-12 w-12" />
           <span
             className="text-2xl font-bold bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
