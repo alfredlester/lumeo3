@@ -54,8 +54,8 @@ export default function Home({ onNavigate }: HomeProps) {
             </div>
 
             <h1
-              className="text-5xl md:text-7xl lg:text-6xl font-bold text-[#f1f5f9] mb-6 leading-tight animate-fade-in"
-              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
+              className="text-5xl md:text-7xl lg:text-6xl font text-[#f1f5f9] mb-6 leading-tight animate-fade-in"
+              style={{ fontFamily: 'DM Sans, sans-serif' }}
             >
               Launch your brand online <br />
               <span className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent">
