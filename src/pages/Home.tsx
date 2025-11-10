@@ -59,10 +59,10 @@ export default function Home({ onNavigate }: HomeProps) {
             >
               Launch your brand online <br />
               <span className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent">
-                with a website built to
+                
               </span>
               <br />
-              convert & scale.
+              
             </h1>
 
             <p className="text-lg md:text-xl text-[#94a3b8] mb-10 max-w-2xl leading-relaxed">
