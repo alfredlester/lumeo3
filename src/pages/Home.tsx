@@ -1,4 +1,4 @@
-import { Sparkles, Rocket, ShoppingCart, Briefcase, Users, Code, Palette, Search, Target, Layers, Wrench } from 'lucide-react';
+import { Sparkles, Rocket, ShoppingCart, Briefcase, Users, Code, Palette, Search, Target, Layers, Wrench, TrendingUp, ArrowRight } from 'lucide-react';
 import Silk from '../components/Silk';
 
 interface HomeProps {
@@ -32,7 +32,7 @@ export default function Home({ onNavigate }: HomeProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 opacity-100">
           <Silk
             speed={8}
@@ -46,29 +46,44 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="absolute top-20 right-20 w-96 h-96 bg-[#2563eb] rounded-full blur-[120px] opacity-20"></div>
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#1e3a8a] rounded-full blur-[120px] opacity-20"></div>
 
-        <div className="relative z-10 max-w-7x1 mx-auto px-6 text-center">
-          <h1
-            className="text-6xl md:text-7xl font-bold text-[#f1f5f9] mb-8 animate-fade-in"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-          >
-            Launch your brand online <br /> with a website built to <br /> convert & scale.
-          </h1>
-          <p className="text-xl text-[#94a3b8] mb-10 max-w-2xl mx-auto">
-            LumeoDigital helps startups and small businesses grow online with clean, responsive, and high-performance websites.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              onClick={() => onNavigate('portfolio')}
-              className="px-8 py-4 rounded-full bg-gradient-to-r from-[#2563eb] to-[#1e3a8a] text-[#f1f5f9] font-medium hover:scale-105 hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] transition-all"
+        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full">
+          <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1e293b]/60 backdrop-blur-sm border border-white/10 mb-8 animate-fade-in">
+              <TrendingUp size={16} className="text-[#2563eb]" />
+              <span className="text-sm text-[#94a3b8]">Trusted by leading brands worldwide</span>
+            </div>
+
+            <h1
+              className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#f1f5f9] mb-6 leading-tight animate-fade-in"
+              style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
-              View Our Work
-            </button>
-            <button
-              onClick={() => onNavigate('contact')}
-              className="px-8 py-4 rounded-full bg-[#1e293b] text-[#f1f5f9] font-medium hover:bg-[#1e3a8a] hover:scale-105 transition-all backdrop-blur-sm"
-            >
-              Book a Call
-            </button>
+              Launch your brand online <br />
+              <span className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent">
+                with a website built to
+              </span>
+              <br />
+              convert & scale.
+            </h1>
+
+            <p className="text-lg md:text-xl text-[#94a3b8] mb-10 max-w-2xl leading-relaxed">
+              LumeoDigital helps startups and small businesses grow online with clean, responsive, and high-performance websites.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button
+                onClick={() => onNavigate('contact')}
+                className="group px-8 py-4 rounded-full bg-gradient-to-r from-[#2563eb] to-[#1e3a8a] text-[#f1f5f9] font-medium hover:scale-105 hover:shadow-[0_0_30px_rgba(37,99,235,0.6)] transition-all flex items-center justify-center gap-2"
+              >
+                Book a Call
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+              </button>
+              <button
+                onClick={() => onNavigate('portfolio')}
+                className="px-8 py-4 rounded-full bg-transparent border-2 border-[#2563eb]/50 text-[#f1f5f9] font-medium hover:bg-[#2563eb]/10 hover:border-[#2563eb] hover:scale-105 transition-all backdrop-blur-sm"
+              >
+                View Our Work
+              </button>
+            </div>
           </div>
         </div>
       </section>
