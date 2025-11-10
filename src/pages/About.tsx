@@ -26,7 +26,7 @@ export default function About() {
           <h1
             className="text-5xl font-bold text-[#f1f5f9] mb-6"
           >
-            Our Mission at LumeoDigital.
+            Our Mission at Neptrax.
           </h1>
           <p className="text-[#94a3b8] text-lg max-w-3xl mx-auto leading-relaxed">
             We're a passionate team of designers and developers dedicated to creating fast, responsive, and beautiful web experiences. Our goal is to help businesses stand out with digital solutions that are simple, effective, and growth-oriented.
