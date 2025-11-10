@@ -34,7 +34,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           onClick={() => onNavigate('home')}
           className="flex items-center gap-3 hover:opacity-90 transition-opacity ml-12"
         >
-          <img src="/logo.png" alt="LumeoDigital" className="h-12 w-12" />
+          <img src="/logo.png" alt="Neptrax" className="h-12 w-12" />
           <span
             className="text-2xl font-bold bg-gradient-to-r from-[#2e69e8] to-[#3b6fc4] bg-clip-text text-transparent"
           >
