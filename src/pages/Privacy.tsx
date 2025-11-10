@@ -29,7 +29,7 @@ export default function Privacy() {
             </div>
             <div className="text-[#94a3b8] space-y-4 leading-relaxed">
               <p>
-                At LumeoDigital, we respect your privacy and are committed to protecting your personal information.
+                At Neptrax, we respect your privacy and are committed to protecting your personal information.
               </p>
               <p>
                 <strong className="text-[#f1f5f9]">Data Collection:</strong> We only collect data that you provide through our contact form, including your name, email address, and message content. We do not use tracking cookies or third-party analytics tools that compromise your privacy.
