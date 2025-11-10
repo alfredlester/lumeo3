@@ -13,8 +13,8 @@ const StarBorder = <T extends React.ElementType = 'button'>({
   as,
   className = '',
   color = 'white',
-  speed = '4s',
-  thickness = 5,
+  speed = '5s',
+  thickness = 4,
   children,
   ...rest
 }: StarBorderProps<T>) => {
