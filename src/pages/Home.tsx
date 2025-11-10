@@ -62,7 +62,7 @@ export default function Home({ onNavigate }: HomeProps) {
                 with a website built to
               </span>
               <br />
-               convert & scale.
+               convert & scale
             </h1>
 
             <p className="text-lg md:text-xl text-[#94a3b8] mb-10 max-w-2xl leading-relaxed">
