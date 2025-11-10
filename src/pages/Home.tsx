@@ -81,7 +81,7 @@ export default function Home({ onNavigate }: HomeProps) {
                 onClick={() => onNavigate('portfolio')}
                 className="px-8 py-4 font-medium text-base"
                 color="#2563eb"
-                speed="5s"
+                speed="8s"
               >
                 View Our Work
               </StarBorder>
