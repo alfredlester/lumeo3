@@ -66,7 +66,7 @@ export default function Home({ onNavigate }: HomeProps) {
             </h1>
 
             <p className="text-lg md:text-xl text-[#94a3b8] mb-10 max-w-2xl leading-relaxed">
-              LumeoDigital helps startups and small businesses grow online with clean, responsive, and high-performance websites.
+              Neptrax helps startups and small businesses grow online with clean, responsive, and high-performance websites.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
