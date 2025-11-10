@@ -32,7 +32,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               onClick={() => onNavigate('home')}
               className="flex items-center gap-3 hover:opacity-80 transition-opacity mb-3"
             >
-              <img src="/logo.png" alt="LumeoDigital" className="h-12 w-12" />
+              <img src="/logo.png" alt="Neptrax" className="h-12 w-12" />
               <span
                 className="text-2xl font-bold bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent"
               >
