@@ -79,7 +79,7 @@ export default function Home({ onNavigate }: HomeProps) {
               </button>
               <StarBorder
                 onClick={() => onNavigate('portfolio')}
-                className="px-8 py-4 font-medium text-base rounded-full"
+                className="px-8 py-4 font-medium text-base"
                 color="#2563eb"
                 speed="5s"
               >
