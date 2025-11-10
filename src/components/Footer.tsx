@@ -36,7 +36,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <span
                 className="text-2xl font-bold bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent"
               >
-                LumeoDigital
+                Neptrax
               </span>
             </button>
           </div>
