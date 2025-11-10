@@ -58,7 +58,7 @@ export default function About() {
           <h2
             className="text-3xl font-bold text-[#f1f5f9] mb-4"
           >
-            Why Choose LumeoDigital?
+            Why Choose Neptrax?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 text-left">
             <div className="bg-[#0d1117]/40 backdrop-blur-sm rounded-xl p-6">
