@@ -100,7 +100,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         <div className="border-t border-white/8 pt-8 flex flex-col items-center justify-center text-center">
           <p className="text-[#94a3b8] text-sm">
-            © 2025 LumeoDigital. All rights reserved.
+            © 2025 Neptrax. All rights reserved.
           </p>
         </div>
       </div>
