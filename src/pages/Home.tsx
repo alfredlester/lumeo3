@@ -65,7 +65,7 @@ export default function Home({ onNavigate }: HomeProps) {
               convert & scale.
             </h1>
 
-            <p className="text-lg md:text-xl text-[#94a3b8] mb-10 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl text-[#abbcd4] mb-10 max-w-2xl leading-relaxed">
               Guiding startups and small businesses from idea to digital success with websites built for performance and growth.
             </p>
 
