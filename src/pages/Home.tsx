@@ -1,5 +1,6 @@
 import { Sparkles, Rocket, ShoppingCart, Briefcase, Users, Code, Palette, Search, Target, Layers, Wrench, TrendingUp, ArrowRight } from 'lucide-react';
 import Silk from '../components/Silk';
+import StarBorder from '../components/StarBorder';
 
 interface HomeProps {
   onNavigate: (section: string) => void;
@@ -54,15 +55,14 @@ export default function Home({ onNavigate }: HomeProps) {
             </div>
 
             <h1
-              className="text-5xl md:text-7xl lg:text-6xl font text-[#f1f5f9] mb-6 leading-tight animate-fade-in"
-              style={{ fontFamily: 'DM Sans, sans-serif' }}
+              className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#f1f5f9] mb-6 leading-tight animate-fade-in"
             >
               Launch your brand online <br />
               <span className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent">
-              with a website built to
+                with a website built to
               </span>
               <br />
-              convert & scale
+              convert & scale.
             </h1>
 
             <p className="text-lg md:text-xl text-[#94a3b8] mb-10 max-w-2xl leading-relaxed">
@@ -77,12 +77,14 @@ export default function Home({ onNavigate }: HomeProps) {
                 Book a Call
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </button>
-              <button
+              <StarBorder
                 onClick={() => onNavigate('portfolio')}
-                className="px-8 py-4 rounded-full bg-transparent border-2 border-[#2563eb]/50 text-[#f1f5f9] font-medium hover:bg-[#2563eb]/10 hover:border-[#2563eb] hover:scale-105 transition-all backdrop-blur-sm"
+                className="px-8 py-4 font-medium text-base"
+                color="#2563eb"
+                speed="5s"
               >
                 View Our Work
-              </button>
+              </StarBorder>
             </div>
           </div>
         </div>
@@ -92,7 +94,6 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="max-w-7xl mx-auto px-6">
           <h2
             className="text-4xl font-bold text-[#f1f5f9] text-center mb-4"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Who We Work With
           </h2>
@@ -134,7 +135,6 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="max-w-7xl mx-auto px-6">
           <h2
             className="text-4xl font-bold text-[#f1f5f9] text-center mb-4"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             What We Do
           </h2>
@@ -160,7 +160,6 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="max-w-7xl mx-auto px-6">
           <h2
             className="text-4xl font-bold text-[#f1f5f9] text-center mb-12"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Our Credentials
           </h2>
@@ -169,7 +168,6 @@ export default function Home({ onNavigate }: HomeProps) {
               <div key={index} className="text-center">
                 <div
                   className="text-5xl font-bold bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent mb-2"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
                 >
                   {stat.number}
                 </div>
@@ -184,7 +182,6 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2
             className="text-4xl font-bold text-[#f1f5f9] mb-6"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Ready to Start Your Project?
           </h2>

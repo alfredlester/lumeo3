@@ -57,7 +57,6 @@ export default function FAQs() {
         <div className="text-center mb-16">
           <h1
             className="text-5xl font-bold text-[#f1f5f9] mb-4"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Frequently Asked Questions
           </h1>
@@ -102,7 +101,6 @@ export default function FAQs() {
         <div className="mt-16 bg-gradient-to-r from-[#0f172a] to-[#1e3a8a] rounded-2xl p-8 text-center">
           <h3
             className="text-2xl font-bold text-[#f1f5f9] mb-3"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Still Have Questions?
           </h3>

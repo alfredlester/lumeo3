@@ -7,7 +7,6 @@ export default function Privacy() {
         <div className="text-center mb-12">
           <h1
             className="text-5xl font-bold text-[#f1f5f9] mb-4"
-            style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
             Privacy & Security
           </h1>
@@ -24,7 +23,6 @@ export default function Privacy() {
               </div>
               <h2
                 className="text-2xl font-bold text-[#f1f5f9]"
-                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               >
                 Privacy Policy
               </h2>
@@ -55,7 +53,6 @@ export default function Privacy() {
               </div>
               <h2
                 className="text-2xl font-bold text-[#f1f5f9]"
-                style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               >
                 Security Policy
               </h2>
